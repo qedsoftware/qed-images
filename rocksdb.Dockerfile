@@ -1,5 +1,5 @@
 # Reference: github.com/facebook/rocksdb/blob/master/INSTALL.md
-FROM python:3.8-buster
+FROM python:3.9-buster
 
 RUN apt-get update && apt-get install -y \
     # begin RocksDB dependencies
